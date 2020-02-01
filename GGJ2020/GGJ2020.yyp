@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "42229f4d-e07b-47b4-a1ab-d1caf2ce0774",
+            "Value": {
+                "id": "14864ca9-1f89-4f47-84f0-7e0bfb66cc1e",
+                "resourcePath": "sprites\\spr_UFO\\spr_UFO.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5265f3f7-2691-4a29-84e8-81f723035a59",
             "Value": {
                 "id": "d73397c4-5daf-4bb0-8c6c-ad8fba3821b7",
@@ -92,6 +100,14 @@
                 "id": "7bb45ade-e4db-4fb4-b247-2a54b6bea2a0",
                 "resourcePath": "views\\6a901d40-98fb-4b86-bdb4-ec4e3fb95fd9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7aa24127-0a72-4952-b823-12f5fe1d601f",
+            "Value": {
+                "id": "968c3da6-02fa-4d82-bcbe-68287f6bca51",
+                "resourcePath": "objects\\object1\\object1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
