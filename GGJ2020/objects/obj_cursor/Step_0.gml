@@ -1,4 +1,11 @@
-axisVal = gamepad_axis_value(global.controllerPort,gp_axislh);
-show_debug_message(axisVal);
+xAxisVal = gamepad_axis_value(global.controllerPort,gp_axislh);
 
-x = x + (1*axisVal);
+
+
+
+yAxisVal = gamepad_axis_value(global.controllerPort,gp_axislv);
+show_debug_message(yAxisVal);
+
+y = y + (1*yAxisVal);
+x = x + (1*xAxisVal);
+
