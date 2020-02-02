@@ -3,7 +3,10 @@
 waitTime = 200;
 randomize();
 
+
 arrayLifePos[2] = 125;
 arrayLifePos[1] = 150;
 arrayLifePos[0] = 188;
-global.lifes = 3;
+global.hel = 3;
+Jack = 3;
+waiting =50;

@@ -13,9 +13,12 @@ if collide == true {
 	deleteTimer ++;
 	if(deleteTimer >= 70){
 		instance_destroy();
+		if(obj3Col){
+		global.hel --;
+		obj3Col = false
+		}
 	}
 }
-
 
 
 

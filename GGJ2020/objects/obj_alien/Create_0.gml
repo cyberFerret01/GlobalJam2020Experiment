@@ -8,3 +8,4 @@ deleteTimer  = 0;
 
 collide = false;
 list = ds_list_create();
+obj3Col = false
