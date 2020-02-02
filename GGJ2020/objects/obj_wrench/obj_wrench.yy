@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_wrench",
     "eventList": [
-        
+        {
+            "id": "7f5f0691-a271-4612-adee-aa821273d373",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "87b4b18a-e218-47db-9067-4c8b7f63654e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

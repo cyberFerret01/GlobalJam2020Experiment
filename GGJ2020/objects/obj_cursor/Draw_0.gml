@@ -2,6 +2,10 @@
 // You can write your code in this editor
 draw_self();
 
+if(repair){
+draw_sprite_ext(spr_wrench,image_index,222,698,1,1,0,c_yellow,1)
+}
+
 if(plzDraw){
 
 if(change == false){

@@ -7,6 +7,7 @@ repair = gamepad_button_value(global.controllerPort,gp_face4);
 fire = gamepad_button_value(global.controllerPort, gp_face3);
 
 
+
 if(repair) && (counterF > 40){
 counterF = 0;
 repCount++
