@@ -66,7 +66,7 @@
             "Key": "2750be9f-d24f-4f44-a964-5a2c701943d3",
             "Value": {
                 "id": "07a4931f-aef6-46ea-a9f6-fde5506a3640",
-                "resourcePath": "sprites\\spr_explosion\\spr_explosion.yy",
+                "resourcePath": "sprites\\spr_explosion_strip2\\spr_explosion_strip2.yy",
                 "resourceType": "GMSprite"
             }
         },
