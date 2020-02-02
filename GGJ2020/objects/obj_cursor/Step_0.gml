@@ -3,7 +3,25 @@ yAxisVal = gamepad_axis_value(global.controllerPort,gp_axisrv);
 
 yStop = gamepad_button_value(global.controllerPort, gp_face1);
 xStop = gamepad_button_value(global.controllerPort, gp_face2); 
+repair = gamepad_button_value(global.controllerPort,gp_face4);
 fire = gamepad_button_value(global.controllerPort, gp_face3);
+
+
+if(repair) && (counterF > 40){
+counterF = 0;
+repCount++
+show_debug_message(repCount);
+
+if(repCount >=5){
+if(global.hel <3){
+global.hel++;
+}
+repCount =0
+
+}
+
+}
+
 
 x = x + (movX*xAxisVal);
 y = y + (movY*yAxisVal);

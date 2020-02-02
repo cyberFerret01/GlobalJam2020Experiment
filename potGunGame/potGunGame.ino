@@ -17,7 +17,8 @@ void setup() {
 
   pinMode(7,INPUT_PULLUP);
   pinMode(8,INPUT_PULLUP);
-  pinMode(9,INPUT_PULLUP);  
+  pinMode(9,INPUT_PULLUP);
+  pinMode(10, INPUT_PULLUP);  
 
 }
 
@@ -34,7 +35,7 @@ Joystick.sendState();
   int Ycor = analogRead(A3);
   
       Serial.println(oldInput,BIN);
-  for(int button = 7; button < 10; button++){
+  for(int button = 7; button < 11; button++){
     
     int input = digitalRead(button);
 
