@@ -8,7 +8,7 @@ fire = gamepad_button_value(global.controllerPort, gp_face3);
 x = x + (movX*xAxisVal);
 y = y + (movY*yAxisVal);
 
-if(xStop) && (counterX > 60){
+if(xStop) && (counterX > 15){
 
 if(stateX){
 
@@ -25,7 +25,7 @@ stateX = true;
 counterX = 0;
 }
 
-if(yStop) && (counterY > 60){
+if(yStop) && (counterY > 15){
 
 if(stateY){
 

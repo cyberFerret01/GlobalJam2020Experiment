@@ -6,9 +6,27 @@ if(plzDraw){
 draw_line_color(509,757,xPos,yPos,c_green,c_lime);
 
 
-obj_collision = collision_line(509,757,xPos,yPos,obj_alien,0,0);
+collisionID = collision_line(509,757,xPos,yPos,obj_alien,0,0);
 
-//object_set_sprite( obj_collision, spr_explosion );
 
-instance_destroy(obj_collision)
+
+if(collisionID){
+
+
+	collisionID.sprite_index = spr_explosion_strip2
+	deleteTimeoutStart = true;
+}
+}
+
+if(deleteTimeoutStart){
+deleteTimer ++;
+
+	if(deleteTimer > 50){
+	
+	instance_destroy((collisionID));
+	deleteTimeoutStart = false;
+	deleteTimer =0;
+	}
+
+
 }

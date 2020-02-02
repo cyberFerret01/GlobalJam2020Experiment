@@ -3,6 +3,9 @@ counterX = 0;
 counterY = 0;
 counterKeepTime = -2;
 
+deleteTimer = 0;
+deleteTimeoutStart = false;
+
 movX = 1;
 movY =1;
 
