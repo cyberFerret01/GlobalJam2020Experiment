@@ -42,12 +42,37 @@ stateY = true;
 counterY = 0;
 }
 
-if(fire) && (counterF > 60){
- 
-show_debug_message("jnfgkbn");
+if(fire) && (counterF > 60) && (counterKeepTime <= 0){
+
+plzDraw = true
+counterKeepTime = 75;
 counterF = 0;
+xPos = x;
+yPos = y;
+
+if(place_meeting(x,y,obj_alien)){
+inX = x;
+inY = y;
+}
+
+if(inX != 99999 && inY != 9999999){
+oWo = instance_place(inX,inY, obj_alien);
+xPos = oWo.x;
+yPos = oWo.y;
+}
+
+
+}
+
+
+
+if(counterKeepTime == 0){
+plzDraw = false;
+inX = 99999;
+inY = 9999999;
 }
 
 counterX++;
 counterY++;
 counterF++;
+counterKeepTime--;

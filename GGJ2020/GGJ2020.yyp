@@ -103,10 +103,18 @@
             }
         },
         {
+            "Key": "7a0a402b-2800-4af4-a476-128e1df5042e",
+            "Value": {
+                "id": "b7ef2b8b-ddb4-4e97-9c51-b5fd8bb061dd",
+                "resourcePath": "sprites\\spr_pixel\\spr_pixel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7aa24127-0a72-4952-b823-12f5fe1d601f",
             "Value": {
                 "id": "968c3da6-02fa-4d82-bcbe-68287f6bca51",
-                "resourcePath": "objects\\object1\\object1.yy",
+                "resourcePath": "objects\\obj_alien\\obj_alien.yy",
                 "resourceType": "GMObject"
             }
         },
