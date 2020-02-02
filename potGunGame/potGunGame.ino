@@ -31,7 +31,7 @@ Joystick.sendState();
 //  Serial.println(analogRead(A1));
 
   int Xcor = analogRead(A1);
-  int Ycor = analogRead(A2);
+  int Ycor = analogRead(A3);
   
       Serial.println(oldInput,BIN);
   for(int button = 7; button < 10; button++){
