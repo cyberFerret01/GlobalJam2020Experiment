@@ -8,6 +8,30 @@ fire = gamepad_button_value(global.controllerPort, gp_face3);
 x = x + (movX*xAxisVal);
 y = y + (movY*yAxisVal);
 
+if(y > 615-16){
+
+y = 615-16;
+
+}
+
+if(x > 384-16){
+
+x = 384-16;
+
+}
+
+if(y < 16){
+
+y = 16;
+
+}
+
+if(x <16){
+
+x = 16;
+
+}
+
 if(xStop) && (counterX > 15){
 
 if(stateX){
@@ -61,6 +85,7 @@ xPos = oWo.x;
 yPos = oWo.y;
 }
 
+change = !change;
 
 }
 

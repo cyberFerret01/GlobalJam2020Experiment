@@ -5,6 +5,7 @@ counterKeepTime = -2;
 
 deleteTimer = 0;
 deleteTimeoutStart = false;
+change = false
 
 movX = 1;
 movY =1;

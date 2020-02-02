@@ -9,3 +9,13 @@ if(movTimer > 69){
 
 movTimer++;
 
+if collide == true {
+	deleteTimer ++;
+	if(deleteTimer >= 70){
+		instance_destroy();
+	}
+}
+
+
+
+

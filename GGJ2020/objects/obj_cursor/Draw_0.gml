@@ -3,8 +3,13 @@
 draw_self();
 
 if(plzDraw){
-draw_line_color(509,757,xPos,yPos,c_green,c_lime);
 
+if(change == false){
+draw_line_color(62, 701,xPos,yPos,c_green,c_lime);
+}
+if(change == true){
+draw_line_color(286, 701,xPos,yPos,c_green,c_lime);
+}
 
 collisionID = collision_line(509,757,xPos,yPos,obj_alien,0,0);
 
@@ -18,6 +23,7 @@ if(collisionID){
 }
 }
 
+
 if(deleteTimeoutStart){
 deleteTimer ++;
 
@@ -30,3 +36,5 @@ deleteTimer ++;
 
 
 }
+
+
