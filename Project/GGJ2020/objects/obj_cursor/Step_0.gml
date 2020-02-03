@@ -1,3 +1,4 @@
+/*
 xAxisVal = gamepad_axis_value(global.controllerPort,gp_axislh);
 yAxisVal = gamepad_axis_value(global.controllerPort,gp_axisrv);
 
@@ -5,8 +6,16 @@ yStop = gamepad_button_value(global.controllerPort, gp_face1);
 xStop = gamepad_button_value(global.controllerPort, gp_face2); 
 repair = gamepad_button_value(global.controllerPort,gp_face4);
 fire = gamepad_button_value(global.controllerPort, gp_face3);
+*/
+left = keyboard_check(vk_left);
+right = keyboard_check(vk_right);
+up = keyboard_check(vk_up);
+down = keyboard_check(vk_down);
+fire = keyboard_check(ord("D"));
+repair = keyboard_check(ord("S"));
 
-
+x = x+5*(right-left)
+y = y+5*(down-up)
 
 if(repair) && (counterF > 40){
 counterF = 0;
@@ -23,10 +32,10 @@ repCount =0
 
 }
 
-
+/*
 x = x + (movX*xAxisVal);
 y = y + (movY*yAxisVal);
-
+*/
 if(y > 615-16){
 
 y = 615-16;
@@ -50,7 +59,7 @@ if(x <16){
 x = 16;
 
 }
-
+/*
 if(xStop) && (counterX > 15){
 
 if(stateX){
@@ -84,7 +93,7 @@ stateY = true;
 
 counterY = 0;
 }
-
+*/
 if(fire) && (counterF > 60) && (counterKeepTime <= 0){
 
 plzDraw = true
